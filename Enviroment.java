@@ -30,7 +30,7 @@ class Enviroment{
 	
 	public void getImages(){
 		try{
-			skyline = ImageIO.read(getClass().getResourceAsStream("/enviroment/skylineHeart.png"));
+			skyline = ImageIO.read(getClass().getResourceAsStream("/enviroment/skyline.png"));
 			
 			
 			

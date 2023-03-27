@@ -18,7 +18,7 @@ class MouseHandler implements MouseListener{
 		int xPos = e.getX();
 		int yPos = e.getY();
 		
-		if (Gp.gameState == 0){
+		if (Gp.gameState == 0 || Gp.gameState == 2){
 		if (Gp.playbutton.contains(xPos,yPos)){
 			Gp.gameState = 1;
 			
