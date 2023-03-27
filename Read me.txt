@@ -1,0 +1,3 @@
+compile: javac *.java
+run:java ChickenRun
+to Jar:jar cfm ChickenRun.jar MANIFEST.mf *.class enviroment playerSprites obstacles
