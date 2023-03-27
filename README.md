@@ -1,4 +1,8 @@
 # ChickenRun
 Fun google dinosaur style game
 
-To run download the .exe file or alternativly load into your ide of choice, compile and run the 
+To run download the repository 
+
+compile the repository with command line while in the file with javac *.java
+
+and run with java ChickenRun
